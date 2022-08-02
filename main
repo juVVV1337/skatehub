@@ -1,0 +1,53 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Phenom by SKATEHUB",  IntroEnabled = true, IntroText = "Welcome to SKATEHUB!", IntroIcon = "rbxassetid://4483345998", Icon = "rbxassetid://4483345998", HidePremium = true, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+local Tab = Window:MakeTab({
+	Name = "Speed",
+	Icon = "rbxassetid://10456489192",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+    Name = "Speed Toggle"
+})
+
+OrionLib:MakeNotification({
+	Name = "Successfully executed!",
+	Content = "Thanks for using SKATEHUB, keep in mind that it's still in ALPHA.",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
+Tab:AddButton({
+	Name = "Legit Speed",
+	Callback = function(s)
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16.45
+      		print("Executed Legit Speed.")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Blatant Speed",
+	Callback = function(s)
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 25.5
+      		print("Executed Legit Speed.")
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Aimbot",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+    Name = "Aimbot Toggle"
+})
+
+Tab:AddButton({
+	Name = "Aimbot",
+	Callback = function(s)
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/juVVV1337/camlockphenom/main/main"))()
+      		print("Executed Aimbot.")
+  	end    
+})
