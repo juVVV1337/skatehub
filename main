@@ -2,7 +2,7 @@
 -- Frame.Transparency == 0
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Phenom by SKATEHUB",  IntroEnabled = true, IntroText = "Welcome to SKATEHUB!", IntroIcon = "rbxassetid://4483345998", Icon = "rbxassetid://4483345998", HidePremium = true, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "Phenom by SKTEHUB",  IntroEnabled = true, IntroText = "Welcome to SKATEHUB!", IntroIcon = "rbxassetid://4483345998", Icon = "rbxassetid://4483345998", HidePremium = true, SaveConfig = true, ConfigFolder = "OrionTest"})
 
 local Tab = Window:MakeTab({
 	Name = "Speed",
