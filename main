@@ -29,7 +29,7 @@ Tab:AddButton({
 Tab:AddButton({
 	Name = "Blatant Speed",
 	Callback = function(s)
-        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 25.5
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 30.5
       		print("Executed Legit Speed.")
   	end    
 })
