@@ -1,6 +1,13 @@
-local whitelisted = ("DonaDaFeira"), ("Example"),
+
+local whitelisted = ("DonoDaFeira"), ("Vyrized"), ("Example"), ("Example"), ("Example"), ("Example"), ("Example"), ("Example"), ("Example"), ("Example"), ("Example"), ("Example"), ("Example"), ("Example")
+
+
+
 
 function script()
+--script if localplayer is whitelisted here
+
+
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Window = OrionLib:MakeWindow({Name = "SKATEHUB",  IntroEnabled = true, IntroText = "Welcome to SKATEHUB!", IntroIcon = "rbxassetid://4483345998", Icon = "rbxassetid://4483345998", HidePremium = true, SaveConfig = true, ConfigFolder = "OrionTest"})
@@ -81,6 +88,7 @@ local Section = Tab:AddSection({
 
 OrionLib:Init()
 
+--script if localplayer is whitelisted here
 end
 
 local nonamexd = game.Players.LocalPlayer.Name
@@ -552,3 +560,5 @@ wait(2)
 whitelist:Destroy()
 game.Players.LocalPlayer:kick "User is not whitelisted!"
 end
+
+--elseif game.PlaceId == N/A then
