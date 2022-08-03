@@ -1,5 +1,5 @@
 
-local whitelisted = ("DonoDaFeira"), ("Crepy_Dev"), ("Example"), ("Example"), ("Example"), ("Example"), ("Example"), ("Example"), ("Example"), ("Example"), ("Example"), ("Example"), ("Example"), ("Example")
+local whitelisted = ("DonoDaFeira"), ("Vyrized"), ("Example"), ("Example"), ("Example"), ("Example"), ("Example"), ("Example"), ("Example"), ("Example"), ("Example"), ("Example"), ("Example"), ("Example")
 
 
 
@@ -117,7 +117,7 @@ nonamer.Position = UDim2.new(0.29919678, 0, -0.527777791, 0)
 nonamer.Size = UDim2.new(0, 200, 0, 50)
 nonamer.Font = Enum.Font.Highway
 nonamer.Text = "Whitelist"
-nonamer.TextColor3 = Color3.new(0, 0, 0)
+nonamer.TextColor3 = Color3.new(255, 255, 255)
 nonamer.TextSize = 40
 creditsifuremoveugayxd.Name = "creditsifuremoveugayxd"
 creditsifuremoveugayxd.Parent = theframe
