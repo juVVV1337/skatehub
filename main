@@ -6,7 +6,6 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Window = OrionLib:MakeWindow({Name = "SKATEHUB",  IntroEnabled = true, IntroText = "Welcome to SKATEHUB!", IntroIcon = "rbxassetid://4483345998", Icon = "rbxassetid://4483345998", HidePremium = true, SaveConfig = true, ConfigFolder = "OrionTest"})
 
-if game.PlaceId == 623694595 then
 local Tab = Window:MakeTab({
 	Name = "Speed",
 	Icon = "rbxassetid://10456489192",
@@ -81,11 +80,5 @@ local Section = Tab:AddSection({
     Name = "Our Discord Server: (depois meto)"
 })
 end)
-
-elseif game.PlaceId == 9825515356 then
-	local Tab = Window:MakeTab({
-		Name = "Lock",
-		Icon = "rbxassetid://4483345998",
-		PremiumOnly = false
 
 OrionLib:Init()
